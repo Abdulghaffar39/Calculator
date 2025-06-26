@@ -4,58 +4,35 @@
      padding: 0;
      box-sizing: border-box;
  
-     font-family: "sans-light";
-     font-weight: 600;
+     font-family: "poppins";
+     font-weight: 400;
      font-style: normal;
      /* font-size: 62.5%; */
-     border: 1px sol/id black;
+     /* border: 1px solid white; */
   }
  
  body {
     background-color: var(--bg-white);
-    color: var(--bg-black);
+    color: var(--color-white);
 
     background: RGB(234, 232, 231);
     background: linear-gradient(19deg, rgba(234, 232, 231, 1) 58%, rgba(241, 228, 224, 1) 87%, rgba(241, 228, 224, 1) 39%); 
  }
  
  @font-face {
-     font-family: "roboto-bold";
-     src: url(../Assets/fonts/Roboto/static/Roboto-Bold.ttf);
+     font-family: "poppins";
+     src: url(../Assets/fonts/poppins/Poppins-Regular.ttf);
  }
- 
- @font-face {
-     font-family: "sans-light";
-     src: url(../Assets/fonts/Open_Sans/static/OpenSans-Light.ttf);
- }
- 
- @font-face {
-     font-family: "sans-bold";
-     src: url(../Assets/fonts/Open_Sans/static/OpenSans-Bold.ttf);
- }
- 
- .roboto-bold {
-     font-family: "roboto-bold";
- }
- 
- .sans-bold {
-     font-family: "sans-bold";
- }
- 
- .sans-light {
-     font-family: "sans-light";
- }
- 
  
  /* bg-color-started */
  :root {
  
    --bg-off-white: rgb(253, 253, 253);
-   --bg-orange: rgb(220, 92, 0);
+   --bg-orange: rgb(246, 153, 6);
    --bg-white: #ffffff;
    --bg-black: #000000;
-   --bg-dark: rgb(35, 35, 35);
-   --bg-gray: rgb(135, 135, 135);
+   --bg-dark: rgb(7, 16, 19);
+   --bg-gray: rgb(49, 49, 49);
  }
  
  .bg-gray {
@@ -87,35 +64,35 @@
  :root {
  
     --color-off-white: rgb(253, 253, 253);
-    --color-orange: rgb(220, 92, 0);
+    --color-orange: rgb(246, 153, 6);
     --color-white: #ffffff;
     --color-black: #000000;
     --color-dark: rgb(35, 35, 35);
-    --color-gray: rgb(135, 135, 135);
+    --color-gray: rgb(49, 49, 49);
  }
  
  .color-gray {
-    background-color: var(--bg-gray);
+    color: var(--color-gray);
   }
   
   .color-off-white {
-    background-color: var(--bg-off-white);
+    color: var(--color-off-white);
   }
   
   .color-orange {
-    background-color: var(--bg-orange);
+    color: var(--color-orange);
   }
   
   .color-white {
-    background-color: var(--bg-white);
+    background-color: var(--color-white);
   }
   
   .color-black {
-    background-color: var(--bg-black);
+    color: var(--color-black);
   }
   
   .color-dark {
-    background-color: var(--bg-dark);
+    color: var(--color-dark);
   }
  /* color-ended */
 
