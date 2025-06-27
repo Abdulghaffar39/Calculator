@@ -39,4 +39,97 @@ tr td{
 }
 
 
+@media screen and (max-width: 600px) and (min-width: 400px) {
+    table{
+        width: 80%;
+        height: 1300px;
+    }
+
+    tr td{
+        width: 150px;
+        height: 150px;
+        font-size: 18px;
+    }
+
+    #output{
+        font-size: 80px;
+    }
+
+    .deve{
+        font-size: 38px;
+    }
+
+}
+
+
+@media screen and (max-width: 760px) and (min-width: 600px) {
+    table{
+        width: 70%;
+        height: 1050px;
+    }
+
+    tr td{
+        width: 100px;
+        height: 100px;
+        font-size: 18px;
+    }
+
+    #output{
+        font-size: 80px;
+    }
+
+    .deve{
+        font-size: 28px;
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    table{
+        width: 50%;
+        height: 700px;
+    }
+
+    tr td{
+        width: 70px;
+        height: 70px;
+        font-size: 15px;
+    }
+
+    #output{
+        font-size: 80px;
+    }
+
+    .deve{
+        font-size: 22px;
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    table{
+        width: 50%;
+        height: 700px;
+    }
+
+    tr td{
+        width: 70px;
+        height: 70px;
+        font-size: 15px;
+    }
+
+    #output{
+        font-size: 80px;
+    }
+
+    .deve{
+        font-size: 22px;
+    }
+
+}
+
+
+
 
