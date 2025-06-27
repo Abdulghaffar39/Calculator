@@ -1,6 +1,6 @@
 table{
     width: 90%;
-    height: 1600px;
+    height: 1800px;
     border-radius: 16px;
     background-color: var(--bg-dark);
 
@@ -31,9 +31,12 @@ tr td{
     padding: 0px 32px;
     font-size: 100px;
     color: rgb(153, 156, 177);
-    box-shadow: 0px 0px 12px var(--bg-black);
+    box-shadow: 0px 0px 32px var(--bg-gray);
 }
 
 .last_table{
     font-size: 40px;
 }
+
+
+
