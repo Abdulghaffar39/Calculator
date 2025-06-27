@@ -3,21 +3,21 @@ var output = document.getElementById('output');
 
 function show(num) {
 
-  output.value += num;
+  output.innerText += num;
 }
 
 function equalto() {
 
-  output.value = eval(output.value);
+  output.innerText = eval(output.innerText);
   
 }
 
 function ac() {
-  output.value = '';
+  output.innerText = '';
 }
 
 function del() {
-  output.value = output.value.slice(0 , -1);
+  output.innerText = output.innerText.slice(0 , -1);
 }
 
 
